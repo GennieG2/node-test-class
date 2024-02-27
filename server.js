@@ -6,7 +6,7 @@ const http = require('http');
 const server = http.createServer((request, response) => {
     // build response that we're sending back to client (request coming from client)
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.write("Hello this is our first node.js application");
+    response.write("Hello this is our updated node.js application!");
     response.end();
 })
 
